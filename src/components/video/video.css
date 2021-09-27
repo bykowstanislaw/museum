@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.video__wrapper{
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 75px;
+    padding-bottom: 95px;
+}
+
+.video{
+    background-color: white;
+}
+.video__headline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headline__main{
+    font-family: "Forum", cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 90px;
+white-space: nowrap;
+margin: 0;
+letter-spacing: 5px;
+text-transform: uppercase;
+
+color: #9D8665;
+}
+
+.headline__descr{
+    font-family: "Roboto",sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 38px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+.video__play{
+    margin-top: 75px;
+    position: relative;
+
+}
+
+.play__tre{
+    position: absolute;
+    left: 686.53px;
+top: 264.91px;
+}
+.play__krug{
+    position: absolute;
+    left: 610px;
+top: 215px;
+
+}
+.line__six{
+    font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 22px;
+line-height: 26px;
+
+
+letter-spacing: 2px;
+
+color: #FFFFFF;
+}
+
+.play__range{
+    position: absolute;
+    top: 645px;
+    width: 1380px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    height: 60px;
+
+    
+}
+.playback{
+    width: 800px;
+    
+}
+.volume{
+    width: 160px;
+    color:darkred;
+    background-color: darkred;
+}

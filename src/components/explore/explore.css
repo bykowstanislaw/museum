@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100&display=swap');
+
+.explore{
+    background-color: black;
+    
+}
+
+.explore__wrapper{
+    width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 75px;
+}
+.explore__main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.explore__text{
+    width: 660px;
+}
+.text__tittle{
+    font-family: "Forum",cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 90px;
+padding-bottom: 25px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-bottom: 25px;
+border-bottom: 3px solid #710707;
+}
+
+.text__small{
+    font-family: "Roboto",cursive;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 38px;
+color: #FFFFFF;
+margin-top: 25px;
+}
+.explore__pic{
+    margin-top: 90px;
+    position: relative;
+    
+}
+.ep{
+    width: 720px;
+    height: 720px;
+}
+.explore__slider{
+    position: absolute;
+    left: 430px;
+    height: 720px;
+    z-index: 100000000000000090000000000000000000000000000000;
+}
+.explore__kontrast{position: absolute;
+    height: 720px;;
+    left: 0px;
+    z-index: 1000000000000;
+    
+}

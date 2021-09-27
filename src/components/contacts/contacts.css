@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.contacts{
+    background-color: white;
+}
+.contacts__wrapper{
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.contacts__head{
+    font-family: "Forum",cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 90px;
+/* identical to box height, or 112% */
+
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #9D8665;
+padding-bottom: 25px;
+border-bottom: 3px solid #710707;
+
+}
+.contacts__block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+.adress__ttl{
+    font-family: "Roboto",sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+padding-bottom: 25px;
+
+color: #000000;
+}
+.adress__small{
+    font-family: "Roboto",sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+
+margin-top: 25px;
+
+color: #000000;
+}

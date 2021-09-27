@@ -1,0 +1,171 @@
+.tickets{
+    background-color: white;
+    z-index: 1;
+}
+
+.tickets__wrapper{
+    width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 75px;
+    padding-top: 75px;
+}
+.tickets__headline{
+    font-family: "Forum",cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 90px;
+
+
+letter-spacing: 5px;
+text-transform: uppercase;
+
+color: #9D8665;
+padding-bottom: 25px;
+border-bottom: 3px solid #710707;
+}
+.tickets__page{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+.type__head{
+    font-family: "Roboto";
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+
+
+
+color: #000000;
+}
+
+.check__radio{
+    background-color: black;
+    width: 17px;
+    height: 17px;
+}
+.check__radio>input:checked {
+    border-color: black;
+    background-color: black;
+}
+.texts{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+
+
+
+color: #000000;
+padding-left: 23px;
+}
+.type{
+    margin-top: 50px;
+}
+.type__check{
+    margin-bottom: 30px;
+}
+.basic__name{
+    font-family: "Roboto";
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+color: #000000;
+}
+.amount__head{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 25px;
+    text-align: right;
+}
+.basic__counter{
+    width: 150px;
+    height: 50px;
+    border: 3px solid #000000;
+box-sizing: border-box;
+border-radius: 0px;
+display: flex;
+justify-content: space-between;
+align-items: right;
+margin-top: 15px;
+align-items: center;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+
+
+
+
+padding-right: 6px;
+padding-left: 10px;
+color: #000000;
+}
+.counter__quan{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+
+text-align: center;
+
+color: #000000;
+}
+.amount__basic{
+    margin-left: 100px;;
+
+}
+.old__name{
+    font-family: "Roboto";
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+color: #000000;
+margin-top: 10px;
+}
+.amount__price{
+    font-family: "Roboto",sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+margin-top: 50px;
+
+letter-spacing: 1.65px;
+
+color: #000000;
+margin-left: 100px;
+}
+.butt{
+    width: 175px;
+    height: 50px;
+    background-color: black;
+    font-family: "Roboto";
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 2px;
+color: white;
+padding-left: 38px;
+margin-top: 60px;
+
+}
+
+.amount__button{
+    margin-left: 80px;
+}

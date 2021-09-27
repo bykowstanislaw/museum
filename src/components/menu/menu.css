@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Roboto+Mono:ital,wght@1,200&family=Roboto:wght@300&display=swap');
+
+.welcome{
+    background-color: black;
+    
+    align-items: center;
+
+    
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1440px;
+    padding-bottom: 75px;
+
+}
+
+.picture-monalisa{
+    width: 1000px;
+    height: 750px;
+    
+}
+.button-style{
+    height: 75px;
+    padding-left: 64px;
+    padding-right: 64px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 2px;
+color: #FFFFFF;
+background-color: #710707;
+border: none;
+border-radius: 10px;
+position: absolute;
+top: 463px;
+align-items: center;
+
+}
+.descr-tittle{
+    font-family: "Forum", cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 90px;
+top: 150px;
+letter-spacing: 5px;
+text-transform: uppercase;
+position: absolute;
+z-index: 10000;
+color: #FFFFFF;
+}
+.descr-about{
+    font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 33px;
+position: absolute;
+white-space: nowrap;
+top: 355px;
+letter-spacing: 2px;
+
+color: #FFFFFF;
+
+}
+.welcome__image{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.name-logo{
+    margin-right: 25px;
+    width: 49px;
+    height: 26px;
+}
+
+.name-tittle{
+    font-family: "Forum";
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 31px;
+
+letter-spacing: 5px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.menu__navigate{
+    display: flex;
+    justify-content: space-between;
+font-family: 'Roboto', sans-serif ;
+font-style: normal;
+font-weight: 100;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: 2px;
+color: #FFFFFF;
+    
+}
+.navigate-item{
+    margin-left: 55px;
+    font-family: 'Roboto', sans-serif ;
+font-style: normal;
+font-weight: 100;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: 2px;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.menu__name{
+    display: flex;
+
+}
+.welcome__menu{
+    padding-top: 62px;
+    padding-bottom: 62px;
+    display: flex;
+    justify-content: space-between;
+}
+.picture-pagination{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    align-items: center;
+    top: 690px;
+    left: 400px;
+    background-color: black;
+    height: 120px;
+    
+}
+.image__picture{
+    position: relative;
+    
+}
+.pagination__page{
+    display: flex;
+    
+    
+}
+
+.page-item{
+    padding-left: 25px;
+}
+.pagination__quan{
+font-family: "Roboto",sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 40px;
+/* identical to box height, or 182% */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.pagination__nav{
+    display: flex;
+
+}
+.nav-left{
+    width: 30px;
+    height: 8px;
+    padding-right: 20px;
+}
+.nav-right{
+    width: 30px;
+    height: 8px;
+    transform:rotate(-180deg);
+}
